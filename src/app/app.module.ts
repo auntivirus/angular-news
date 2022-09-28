@@ -8,6 +8,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout';
+import { HttpClientModule } from '@angular/common/http';
+import {MatRippleModule} from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import {LayoutModule} from '@angular/cdk/layout';
     MatSidenavModule,
     MatDividerModule,
     MatIconModule,
-    LayoutModule
+    LayoutModule,
+    HttpClientModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
