@@ -1,5 +1,5 @@
 # News Website using Angular
-
+## This project uses newsapi.org APIs to fetch all the data.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
 ## Development server
